@@ -48,7 +48,7 @@ export const Banner = ({ documentId }: BannerProps) => {
         variant="outline"
         className="border-white bg-transparent hover:bg-primary/5 text-white hover:text-white p-1 px-2 h-auto font-normal"
       >
-        Restore this page
+        Restore page
       </Button>
       <ConfirmModal onConfirm={onRemove}>
         <Button
